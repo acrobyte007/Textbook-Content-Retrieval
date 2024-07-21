@@ -1,6 +1,5 @@
 FROM python:3.9-slim
-RUN pip install nltk sentence-transformers
-RUN python -m nltk.downloader punkt
+RUN pip install scikit-learn transformers
 WORKDIR /app
-COPY chunk_and_embed.py .
-CMD ["python", "chunk_and_embed.py"]
+COPY clustering_and_summarization.py .
+CMD ["python", "clustering_and_summarization.py"]
