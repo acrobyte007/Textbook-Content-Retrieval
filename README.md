@@ -46,7 +46,7 @@ Task:
 
 Approach:
 - Retrieval Methods:
-  - BM25 with BERT/bi-encoder based retrieval
+  - BERT/bi-encoder based retrieval
 - Re-Ranking:
   - Re-rank the retrieved data based on relevance and similarity to the query using appropriate ranking algorithms.
 
